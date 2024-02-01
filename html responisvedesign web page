@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Architecture Survey</title>
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body> 
+      <header class="header">
+      <h1 id="title" class="text-center"> Architecture Survey</h1>
+      <p id="description" class="text-center" >Thank you for the Open-Transparancy as Architectural Professionals
+      </p>
+      
+      <form method="post" action="jeffrey18xxxx@gmail.com" for="survey-form" id="survey-form" name="">
+     <div class="form-group">
+      <fieldset>
+          <div class="form-group">
+           <p>What is your level of work experience?
+           </p>
+          <label>
+            <input
+              name="work-experience"
+              value="0-3 Years"
+              type="radio"
+              class="input-radio"
+              checked
+            />0-3 Years</label
+          >
+       <label>
+            <input
+              name="work-experience"
+              value="3-6 years"
+              type="radio"
+              class="input-radio"
+            />3-6 years</label
+          >
+
+          <label
+            ><input
+              name="work-experience"
+              value="6-9 Years"
+              type="radio"
+              class="input-radio"
+            />6-9 Years</label
+          >
+
+          <label
+            ><input type="checkbox"
+              name="work-experience"
+              value="10+ Years"
+              type="radio"
+              class="input-radio"
+            />10+ Years</label
+          >
+        </div>
+
+           <label
+            ><input type="checkbox"
+              name="prefer"
+              value="videos"
+              type="checkbox"
+              class="input-checkbox"
+            />Videos</label
+
+        <div>
+        <label for="salary">What is your yearly salary?
+          <select id="salary" name="salary" class="inline">
+            <option value="">(select one)</option>
+            <option value="1">$30,000-40,000</option>
+            <option value="2">$40,000-50,000</option>
+            <option value="3">$50,000-60,000</option>
+            <option value="4">$60,000-70,000</option>
+            <option value="5">$70,000-80,000</option>
+            <option value="6">$80,000-90,000</option>
+            <option value="7">$90,000-100,000</option>
+            <option value="8">$100,000-110,000</option>
+            <option value="9">$110,000-120,000</option>
+            <option value="10">$120,000-130,000</option>
+            <option value="11">$130,000-140,000</option>
+            <option value="12">$140,000-150,000</option>
+            <option value="13">$150,000-160,000</option>
+            <option value="14">$160,000-170,000</option>
+            <option value="15">$170,000+</option>
+            </select>
+        </div>
+        <div>
+        <label for="roles">Which option best describes your current role?
+          <select id="dropdown" name="roles" class="">
+            <option value="">(select one)</option>
+            <option value="1">Intern</option>
+            <option value="2">Designer</option>
+            <option value="3">Project Architect/Manager</option>
+            <option value="4">Senior Architect/Designer</option>
+            <option value="5">Principal</option>
+            <option value="6">Partner/Owner</option>
+            </select>
+        </div>
+
+       <div class="form-group">
+        <p>Any additional comments or suggestions?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
+         <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+
+      </form>
+    </body>
