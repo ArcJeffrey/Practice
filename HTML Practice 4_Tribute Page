@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="styles.css" ref="stylesheet">
+
+  <head>
+    <title id="title">Zaha Hadid Tribute Page</title>
+  </head>
+
+  <body>
+    <main id="main">
+    <h1>Zaha Hadid Tribute Page</h1>
+    <p><em>"There are 360 degrees, why stick to one?"</em></p>
+    <div class="img-container" id="img-div">
+    <img class="Zaha Image" id="image" src="https://static.dezeen.com/uploads/2016/05/zaha-hadid_portrait_steve-double_dezeen_ss.jpg" alt="Zaha Hadid Portrait"/>
+    <figcaption id="img-caption"><em>Zaha Hadid Fashion Portrait</em></figcaption>
+    </div>
+    <h3>Here's a time line of Zaha Hadid's designs:</h3>
+    <ul>
+      <li><strong>1993</strong> - The design of Vitra Fire Station, Germany</li>
+      <li><strong>2006</strong> - Maggie's Centre, Fife</li>
+      <li><strong>2010</strong> - Evelyn Grace Acadamy, London </li>
+      <li><strong>2012</strong> - Heydar Aliyev Centre, Baku</li>
+      <li><strong>2015</strong> - Messner Mountain Museum, Italy</li>
+    </ul>
+    <h3 id="tribute-info">If you have time, you should read more about this incredible human being on her <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Zaha_Hadid">Wikipedia entry.</a></h3>
+  </main>
+  </body>
+  </html>
