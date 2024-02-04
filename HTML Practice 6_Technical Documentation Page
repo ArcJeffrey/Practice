@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width inital-scale=1.0">
+  <head>
+    <link href="styles.css" ref="stylesheet">
+    <title>Technical Documentation</title>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <header>Revit Autodesk Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >What you should already know</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Revit_and_Dynamo"
+            >Revit and Dynamo</a
+          >
+        </li>
+
+        <li>
+          <a class="nav-link" href="#Dynamo_Scripts">Dynamo Scripts</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Script_Variables">Script Variables</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <code>-</code>
+          <code>-</code>
+          <code>-</code>
+          <code>-</code>
+          <code>-</code>
+          <p>
+            The Revit work environment allows users to manipulate whole buildings or assemblies (in the project environment) or individual 3D shapes (in the family editor environment). Modeling tools can be used with pre-made solid objects or imported geometric models. However, Revit is not a NURBS modeller and also lacks the ability to manipulate an object's individual polygons except on some specific object types such as roofs, slabs, and terrain or in the massing environment.
+          </p>
+          <p>
+            Autodesk Revit is a building information modelling software for architects, structural engineers, mechanical, electrical, and plumbing (MEP) engineers, designers and contractors. The original software was developed by Charles River Software, founded in 1997, renamed Revit Technology Corporation in 2000, and acquired by Autodesk in 2002. The software allows users to design a building and structure and its components in 3D, annotate the model with 2D drafting elements, and access building information from the building model's database. Revit is 4D building information modeling application capable with tools to plan and track various stages in the building's lifecycle, from concept to construction and later maintenance and/or demolition.
+              </p>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+<section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
+        <article>
+          <p>Revit & Dynamo:
+          </p>
+          <p>This guide assumes you have the following basic background:
+          </p>
+          <ul>
+            <li>
+              A general understanding of the BIM implementations.
+            </li>
+            <li>Good working knowledge of Autodesk Software Compatibilities.</li>
+            <li>
+              Architecture experience of 2D and 3D modeling.
+            </li>
+            <li>
+              A basic understanding of principles of Dynamo variables.
+            </li>
+            <li>
+              A basic understanding of Revit Autodesk and it's navigations.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+
+<section class="main-section" id="Revit_and_Dynamo">
+        <header>Revit and Dynamo</header>
+        <article>
+          <p>
+           Dynamo, the application, is a software that can be downloaded and run in either stand-alone "Sandbox" mode or as a plug-in for other software like Revit or Maya. It is described as:
+
+A visual programming tool that aims to be accessible to both non-programmers and programmers alike. It gives users the ability to visually script behavior, define custom pieces of logic, and script using various textual programming languages.
+          </p>
+
+          <p>
+Dynamo is envisioned as a visual programming tool for designers, allowing us to make tools that make use of external libraries or any Autodesk product that has an API. With Dynamo Sandbox we can develop programs in a "Sandbox" style application - but the Dynamo ecosystem continues to grow.
+</p>
+<p>
+
+The source code for the project is open-source, enabling us to extend its functionality to our hearts content. Check out the project on GitHub and browse the Works in Progress of users customizing Dynamo
+          </p>
+        </article>
+      </section>
+
+ <section class="main-section" id="Dynamo_Scripts">
+        <header>Dynamo Scripts</header>
+        <p>
+         Dynamo will enable us to work within a Visual Programming process wherein we connect elements together to define the relationships and the sequences of actions that compose custom algorithms. We can use our algorithms for a wide array of applications - from processing data to generating geometry - all in real time and without writing a lick of code.
+        </p>
+        <p>
+          Dynamo is envisioned as a visual programming tool for designers, allowing us to make tools that make use of external libraries or any Autodesk product that has an API. With Dynamo Sandbox we can develop programs in a "Sandbox" style application - but the Dynamo ecosystem continues to grow.
+
+The source code for the project is open-source, enabling us to extend its functionality to our hearts content. Check out the project on GitHub and browse the Works in Progress of users customizing Dynamo
+        </p>
+      </section>
+
+       <section class="main-section" id="Script_Variables">
+        <header>Script Variables</header>
+        <p>
+All the work that a Dynamo template does is done by the commands in the template's Flow. As commands get evaluated during the evaluation process, they each perform their intrinsic function. However, commands do not always perform in the exact same way - most of them have a variety of attributes that are used to configure the command's functionality. Each attribute of a command may be given a value, and this value is often a variable found residing in the variable context. The variable context, a persistent storage for values, therefore ties heavily into the operation of the commands.
+        </p>
+        
+       </section>
+      </nav>
+    </main>
+  </body>
