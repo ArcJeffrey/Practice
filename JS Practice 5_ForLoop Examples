@@ -3,3 +3,12 @@
 for (let counter = 70; counter < 111; counter++) {
   console.log(counter)
 }
+
+
+//this for prints 'I would love to visit ' + vacationSpots[i] through Arrays in a for Loop
+
+const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+
+for (let i = 0; i < vacationSpots.length; i++) {
+  console.log('I would love to visit ' + vacationSpots[i]);
+}
