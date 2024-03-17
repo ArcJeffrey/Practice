@@ -12,3 +12,19 @@ const vacationSpots = ['Bali', 'Paris', 'Tulum'];
 for (let i = 0; i < vacationSpots.length; i++) {
   console.log('I would love to visit ' + vacationSpots[i]);
 }
+
+//an example of a Nested Loop, tinasFollowers is nested inside bobsFollowers and therefore mutualFollowers is the output of bob's and tina' === friends
+
+const bobsFollowers = ['Jake','Alan','Alex','Bernie'];
+
+const tinasFollowers = ['Jake','Vanessa','Alex'];
+
+const mutualFollowers = [];
+
+for (let i = 0; i < bobsFollowers.length; i++) {
+  for (let j = 0; j < tinasFollowers.length; j++) {
+    if (bobsFollowers[i] === tinasFollowers[j]) {
+     mutualFollowers.push(bobsFollowers[i]);
+    }
+  }
+};
