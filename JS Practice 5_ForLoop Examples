@@ -1,0 +1,5 @@
+//this for loop allows the counter to start at 70 and end at 110 by increasing by +1 every increment
+
+for (let counter = 70; counter < 111; counter++) {
+  console.log(counter)
+}
