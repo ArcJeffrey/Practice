@@ -27,9 +27,4 @@ for (let i = 0; i < bobsFollowers.length; i++) {
      mutualFollowers.push(bobsFollowers[i]);
     }
   }
-
-test 1
-test 2 
-test 3 
-test 4
 };
