@@ -28,3 +28,18 @@ for (let i = 0; i < bobsFollowers.length; i++) {
     }
   }
 };
+
+
+// do...while statement practice
+
+let cupsOfSugarNeeded = 3;
+let cupsAdded = 0;
+
+//this statement adds a cup of sugar to the recipe until it reaches the # of cupsOfSugarNeeded
+
+do {
+  cupsAdded++;
+  console.log(cupsAdded + ' cups of sugar were added to the recipe')
+} while (cupsAdded < cupsOfSugarNeeded);
+
+
