@@ -16,9 +16,7 @@ for (let i = 0; i < vacationSpots.length; i++) {
 //an example of a Nested Loop, tinasFollowers is nested inside bobsFollowers and therefore mutualFollowers is the output of bob's and tina's mutual friends
 
 const bobsFollowers = ['Jake','Alan','Alex','Bernie'];
-
 const tinasFollowers = ['Jake','Vanessa','Alex'];
-
 const mutualFollowers = [];
 
 for (let i = 0; i < bobsFollowers.length; i++) {
@@ -43,3 +41,16 @@ do {
 } while (cupsAdded < cupsOfSugarNeeded);
 
 
+//The Break keyword example
+
+const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
+
+//This statement allows the loop to break once it hits 'Notorious B.I.G.', leaving Tupac out when logged
+
+for (let i = 0; i < rapperArray.length; i++){
+   console.log(rapperArray[i]);
+ if (rapperArray[i] === 'Notorious B.I.G.'){
+    break;
+  }
+}
+console.log("And if you don't know, now you know.")
