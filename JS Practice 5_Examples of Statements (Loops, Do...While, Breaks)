@@ -13,7 +13,7 @@ for (let i = 0; i < vacationSpots.length; i++) {
   console.log('I would love to visit ' + vacationSpots[i]);
 }
 
-//an example of a Nested Loop, tinasFollowers is nested inside bobsFollowers and therefore mutualFollowers is the output of bob's and tina' === friends
+//an example of a Nested Loop, tinasFollowers is nested inside bobsFollowers and therefore mutualFollowers is the output of bob's and tina's mutual friends
 
 const bobsFollowers = ['Jake','Alan','Alex','Bernie'];
 
