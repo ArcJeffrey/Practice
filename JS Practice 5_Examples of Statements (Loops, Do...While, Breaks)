@@ -28,10 +28,6 @@ for (let i = 0; i < bobsFollowers.length; i++) {
 };
 
 
-
-console.log(test)
-
-
 // do...while statement practice
 
 let cupsOfSugarNeeded = 3;
@@ -58,3 +54,7 @@ for (let i = 0; i < rapperArray.length; i++){
   }
 }
 console.log("And if you don't know, now you know.")
+
+
+const test = 7+7+7;
+console.log(test)
