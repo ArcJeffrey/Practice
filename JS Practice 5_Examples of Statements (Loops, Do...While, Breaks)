@@ -28,6 +28,10 @@ for (let i = 0; i < bobsFollowers.length; i++) {
 };
 
 
+
+console.log(test)
+
+
 // do...while statement practice
 
 let cupsOfSugarNeeded = 3;
